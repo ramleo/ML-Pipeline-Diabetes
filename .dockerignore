@@ -1,0 +1,37 @@
+# Version control
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Data & plots (not needed at runtime)
+data/
+plots/
+
+# Tests & docs
+tests/
+docs/
+
+# Markdown files
+*.md
+
+# Environment & secrets
+.env
+*.env.*
+
+# macOS artefacts
+.DS_Store
+
+# Claude Code
+.claude/
+
+# Source preprocessing scripts (pipeline is self-contained in models/)
+src/
